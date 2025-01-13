@@ -20,4 +20,4 @@ for _ in range(1000):
         break
     # time.sleep(0.05)
 
-imageio.mimsave("ppo_snake.gif", [np.array(img) for i, img in enumerate(images) if i%2 == 0], fps=29, loop=1, duration=0.1)
+imageio.mimsave("ppo_snake.gif", [np.array(img) for i, img in enumerate(images)], fps=29, loop=1, duration=0.1)
